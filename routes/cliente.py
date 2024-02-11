@@ -33,6 +33,6 @@ def atualizar_cliente(cliente_id):
     pass
 
 
-@cliente_route.route('/<int:cliente_id>/delete', methods=['PUT'])
+@cliente_route.route('/<int:cliente_id>/delete', methods=['DELETE'])
 def deletar_cliente(cliente_id):
     pass
